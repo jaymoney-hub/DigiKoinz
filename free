@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FreeWallet - Free Wallet for Bitcoin and Counterparty</title>
+    <link rel="canonical" href="https://freewallet.io/" />
+    <meta name="description" content="">
+    <meta name="robots"      content="index, follow">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link type="image/ico" rel="icon"       href="/img/favicon.ico">
+    <link type="text/css"  rel="stylesheet" href="/css/bootstrap.min.css">
+    <link type="text/css"  rel="stylesheet" href="/css/font-awesome.min.css">
+    <link type="text/css"  rel="stylesheet" href="/css/blueimp-gallery.min.css">
+    <link type="text/css"  rel="stylesheet" href="/css/custom.css">
+    <!-- Bare minimum JS loaded here - jQuery only  -->
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+</head> 
+<body>
+    <div class="topnav navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a href="/" title="FreeWallet"><img src="/img/header-logo.png" alt="FreeWallet" border="0" /></a>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#features"    title="Features"   ><i class="fa fa-lg fa-list"></i> Features</a></li>
+                    <li><a href="#screenshots" title="Screenshots"><i class="fa fa-lg fa-picture-o"></i> Screenshots</a></li>
+                    <li><a href="#updates"     title="Updates"    ><i class="fa fa-lg fa-newspaper-o"></i> Updates</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Content wrapper -->
+    <div id="wrapper">
+        <div class="container" role="main">
+            
+            <div class="row" style="margin-top:60px">
+
+    <!-- FreeWallet Basics -->
+    <div class="col-sm-12 col-md-6 text-center">
+
+        <img src="/img/logo.png" style="width:350px;margin-bottom:20px">
+        <br/>FreeWallet is a free open-source wallet which supports Bitcoin and Counterparty.
+
+        <div class="row">
+            <!-- Mobile -->
+            <div class="col-sm-6 col-md-12 col-lg-6">
+                <h3>Mobile Version</h3>
+                <a href="https://itunes.apple.com/us/app/freewallet/id1151168579" class="btn btn-lg btn-primary btn-download">
+                    <i class="fa fa-apple fa-2x pull-left"></i>
+                    <span>Download for</span>
+                    <br>iOS / iPhone / iPad
+                </a>
+                <br/>
+                <a href="https://play.google.com/store/apps/details?id=io.freewallet.mobile" class="btn btn-lg btn-info btn-download">
+                    <i class="fa fa-android fa-2x pull-left"></i>
+                    <span>Download for</span>
+                    <br>Android Devices
+                </a>
+                <br/>
+                <a href="https://freewallet.io/mobile/" class="btn btn-lg btn-success btn-download">
+                    <i class="fa fa-chrome fa-2x pull-left"></i>
+                    <span>Run in </span>
+                    <br>Google Chrome
+                </a>
+            </div>
+
+            <!-- Desktop -->
+            <div class="col-sm-6 col-md-12 col-lg-6">
+                <h3>Desktop Version</h3>
+                <a href="https://github.com/jdogresorg/freewallet-desktop/releases/latest" class="btn btn-lg btn-primary btn-download">
+                    <i class="fa fa-apple fa-2x pull-left"></i>
+                    <span>Download for</span>
+                    <br>Macintosh / OSX
+                </a>
+                <br/>
+                <a href="https://github.com/jdogresorg/freewallet-desktop/releases/latest" class="btn btn-lg btn-info btn-download">
+                    <i class="fa fa-windows fa-2x pull-left"></i>
+                    <span>Download for</span>
+                    <br>Microsoft Windows
+                </a>
+                <br/>
+                <a href="https://github.com/jdogresorg/freewallet-desktop/releases/latest" class="btn btn-lg btn-success btn-download">
+                    <i class="fa fa-linux fa-2x pull-left"></i>
+                    <span>Download for </span>
+                    <br>Ubuntu / Linux
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Basic Mac/Windows-->
+    <div class="col-sm-12 col-md-6 content-right text-center" style="height: 500px;">
+        <img src="/img/desktop_mobile.png" style="width: 100%;max-width: 550px; border: 1px solid #ddd;margin-top:35px">
+    </div>
+
+</div>
+
+<!-- Features -->
+<div class="row panel-body" style="margin-top:40px;">
+    <a name="features"></a>
+    <h2><i class="fa fa-list"></i> Features</h2>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><i class="fa fa-lock"></i> Secure</h3>
+            <p>All encryption is handled client-side. Neither your passphrase nor any of your private information ever leaves your browser, workstation, or mobile device.</p>
+            <p>FreeWallet passphrases are highly secure, and protect your wallet from any brute force attacks. They are also rather easy to learn and hard to mistype.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-cloud"></i> Simple</h3>
+            <p>With FreeWallet, your passphrase is literally your wallet, and all of your addresses and keys are generated on-the-fly when you log in.</p>
+            <p>There are no wallet files to backup or secure, and using your passphrase you can access your wallet from any trusted machine with a web browser.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-globe"></i> Open Source</h3>
+            <p>FreeWallet Mobile is open-source, and available for anyone to fork or review, so you know that it works exactly the way that it is supposed to.</p>
+            <p>FreeWallet Desktop is also open-source, and available for anyone to fork or review, but includes annoyware to remind users to donate to development.</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><i class="fa fa-paper-plane"></i> Send</h3>
+            <p>Send Bitcoin, XCP, or any other counterparty token/asset to any bitcoin address.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-qrcode"></i> Receive</h3>
+            <p>Receive Bitcoin, XCP, or any other counterparty token via a scannable QR Code.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-bank"></i> Issue Tokens</h3>
+            <p>Quickly and easily create your own tokens to use for whatever you would like.</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><i class="fa fa-pencil"></i> Sign</h3>
+            <p>Sign a transaction with any address in your wallet, or sign a message that others can verify.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-bullhorn"></i> Broadcast</h3>
+            <p>Broadcast any message to the bitcoin blockchain for anyone to see.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-list"></i> Multiple Addresses</h3>
+            <p>Supports multiple addresses as well as segwit, importing private keys, and watch-only addresses.</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><i class="fa fa-bitcoin"></i> Mainnet &amp; Testnet Supported</h3>
+            <p>Support for Bitcoin Core (BTC) transactions on both Mainnet and Testnet.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-user-secret"></i> Password Protected</h3>
+            <p>Add an Password, PIN or thumbprint scan to give your wallet an additional layer of security.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-qrcode"></i> QR Code Authorization</h3>
+            <p>Support for QR Code Authorization which allows anyone to register/login to a site using only their bitcoin address.</p>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><i class="fa fa-exchange"></i> Decentralized Exchange</h3>
+            <p>Integrated exchange interface that allows peer-to-peer trading of counterparty tokens in a truly decentralized and trustless manner.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-bullseye"></i> Decentralized Betting*</h3>
+            <p>Integrated betting interface that allows anyone to operate a oracle, browse a listing of available feeds, and place bets on feeds.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-sitemap"></i> Dividends / Distributions</h3>
+            <p>Distribute an token of your choosing to holders of any other counterparty token.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h3><i class="fa fa-arrows-h"></i> Dispensers</h3>
+            <p>Easily setup dispensers or vending machines to sell your tokens directly for Bitcoin (BTC).</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-users"></i> MPMA Sends</h3>
+            <p>Multi-Peer-Multi-Asset (MPMA) Sends allow sending of many tokens to many addresses in a single transaction.</p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3><i class="fa fa-list"></i> Dispenser Watchlists</h3>
+            <p>Setup dispenser watchlists to ensure your getting the best price on your dispenser purchases.</p>
+        </div>
+    </div>
+
+
+    <div>* = In development</div>
+</div>
+
+<!-- Screenshots -->
+<div class="row panel-body" style="margin-top:40px;">
+    <a name="screenshots"></a>
+    <h2><i class="fa fa-picture-o"></i> Screenshots</h2>
+
+    <div class="row">
+
+        <!-- Mobile -->
+        <div class="col-sm-6 col-md-12 col-lg-6 content-left">
+
+            <h3>FreeWallet Mobile</h3>
+            <div id="screenshots-mobile" class="gallery-screenshots">
+                <div class="img-container"><a href="/img/screenshots/mobile/phone/1-Balances.jpg" title="Balances (Phone)" data-toggle="tooltip"><img src="/img/screenshots/mobile/phone/1-Balances.jpg" alt="Balances (Phone)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/phone/2-History.jpg"  title="History (Phone)"  data-toggle="tooltip"><img src="/img/screenshots/mobile/phone/2-History.jpg"  alt="History (Phone)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/phone/3-Tools.jpg"    title="Tools (Phone)"    data-toggle="tooltip"><img src="/img/screenshots/mobile/phone/3-Tools.jpg"    alt="Tools (Phone)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/phone/4-Send.jpg"     title="Send (Phone)"     data-toggle="tooltip"><img src="/img/screenshots/mobile/phone/4-Send.jpg"     alt="Send (Phone)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/phone/5-Settings.jpg" title="Settings (Phone)" data-toggle="tooltip"><img src="/img/screenshots/mobile/phone/5-Settings.jpg" alt="Settings (Phone)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/phone/6-Receive.jpg"  title="Receieve (Phone)" data-toggle="tooltip"><img src="/img/screenshots/mobile/phone/6-Receive.jpg"  alt="Receieve (Phone)"></a></div>
+                <br/>
+                <div class="img-container"><a href="/img/screenshots/mobile/tablet/1-Balances.jpg" title="Balances (Tablet)" data-toggle="tooltip"><img src="/img/screenshots/mobile/tablet/1-Balances.jpg" alt="Balances (Tablet)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/tablet/2-History.jpg"  title="History (Tablet)"  data-toggle="tooltip"><img src="/img/screenshots/mobile/tablet/2-History.jpg"  alt="History (Tablet)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/tablet/3-Tools.jpg"    title="Tools (Tablet)"    data-toggle="tooltip"><img src="/img/screenshots/mobile/tablet/3-Tools.jpg"    alt="Tools (Tablet)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/tablet/4-Send.jpg"     title="Send (Tablet)"     data-toggle="tooltip"><img src="/img/screenshots/mobile/tablet/4-Send.jpg"     alt="Send (Tablet)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/tablet/5-Settings.jpg" title="Settings (Tablet)" data-toggle="tooltip"><img src="/img/screenshots/mobile/tablet/5-Settings.jpg" alt="Settings (Tablet)"></a></div>
+                <div class="img-container"><a href="/img/screenshots/mobile/tablet/6-Receive.jpg"  title="Receive (Tablet)"  data-toggle="tooltip"><img src="/img/screenshots/mobile/tablet/6-Receive.jpg"  alt="Receive (Tablet)"></a></div>
+            </div>
+
+        </div>
+
+        <!-- Desktop -->
+        <div class="col-sm-6 col-md-12 col-lg-6">
+            <h3>FreeWallet Desktop</h3>
+            <div id="screenshots-desktop" class="gallery-screenshots">
+                <div class="img-container"><a href="/img/screenshots/desktop/1-Welcome.jpg"       title="Welcome"          data-toggle="tooltip" ><img src="/img/screenshots/desktop/1-Welcome.jpg"       alt="Welcome"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/2-Balances.jpg"      title="Balances"         data-toggle="tooltip" ><img src="/img/screenshots/desktop/2-Balances.jpg"      alt="Balances"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/3-History.jpg"       title="History"          data-toggle="tooltip" ><img src="/img/screenshots/desktop/3-History.jpg"       alt="History"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/4-Actions.jpg"       title="Actions"          data-toggle="tooltip" ><img src="/img/screenshots/desktop/4-Actions.jpg"       alt="Actions"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/5-Settings.jpg"      title="Settings"         data-toggle="tooltip" ><img src="/img/screenshots/desktop/5-Settings.jpg"      alt="Settings"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/6-ChangeAddress.jpg" title="Change Address"   data-toggle="tooltip" ><img src="/img/screenshots/desktop/6-ChangeAddress.jpg" alt="Change Address"></a></div>
+                <br/>
+                <div class="img-container"><a href="/img/screenshots/desktop/7-Exchange.jpg"     title="Exchange"     data-toggle="tooltip" ><img src="/img/screenshots/desktop/7-Exchange.jpg"     alt="Exchange"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/8-Betting.jpg"      title="Betting"      data-toggle="tooltip" ><img src="/img/screenshots/desktop/8-Betting.jpg"      alt="Betting"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/9-Send.jpg"         title="Send"         data-toggle="tooltip" ><img src="/img/screenshots/desktop/9-Send.jpg"         alt="Send"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/10-Issuance.jpg"    title="Issuance"     data-toggle="tooltip" ><img src="/img/screenshots/desktop/10-Issuance.jpg"    alt="Issuance"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/11-ViewAddress.jpg" title="View Address" data-toggle="tooltip" ><img src="/img/screenshots/desktop/11-ViewAddress.jpg" alt="View Address"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/12-About.jpg"       title="About"        data-toggle="tooltip" ><img src="/img/screenshots/desktop/12-About.jpg"       alt="About"></a></div>
+                <br/>
+                <div class="img-container"><a href="/img/screenshots/desktop/13-Markets.jpg"                title="Markets"             data-toggle="tooltip" ><img src="/img/screenshots/desktop/13-Markets.jpg"               alt="Markets"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/14-Market-Basics.jpg"          title="Market Basics"       data-toggle="tooltip" ><img src="/img/screenshots/desktop/14-Market-Basics.jpg"         alt="Market Basics"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/15-Market-Buy-Sell.jpg"        title="Market - Buy/Sell"   data-toggle="tooltip" ><img src="/img/screenshots/desktop/15-Market-Buy-Sell.jpg"       alt="Market - Buy/Sell"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/16-Market-Depth.jpg"           title="Market Depth"        data-toggle="tooltip" ><img src="/img/screenshots/desktop/16-Market-Depth.jpg"          alt="Market Depth"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/17-Market-Confirm-Order.jpg"   title="Confirm Order"       data-toggle="tooltip" ><img src="/img/screenshots/desktop/17-Market-Confirm-Order.jpg"  alt="Confirm Order"></a></div>
+                <div class="img-container"><a href="/img/screenshots/desktop/18-Market-Large-Charts.jpg"    title="Large Interface"     data-toggle="tooltip" ><img src="/img/screenshots/desktop/18-Market-Large-Charts.jpg"   alt="Large Interface"></a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- The Gallery as lightbox dialog -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+</div>
+
+<!-- Updates -->
+<div class="row panel-body" style="margin-top:40px;">
+    <a name="updates"></a>
+    <h2><i class="fa fa-newspaper-o"></i> Updates</h2>
+
+    <div class="row">
+        <div class="col-sm-6 content-left">
+            <h3>FreeWallet Mobile</h3>
+
+            <b>Version 0.1.9</b> - <i>March 15, 2019</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Removed defunct blocktrail.com API calls</li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Removed defunct counterpartychain.io API calls</li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Setup all API calls with multiple failovers</li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Native QR Code Scanning</li>
+                <li><span class="btn btn-xs btn-info">UPDATE</span> - Updated all plugin versions</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added ability to lock token</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added ability to view private keys</li>
+            </ul>
+
+            <b>Version 0.1.8</b> - <i>July 07, 2017</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for importing private keys</li>
+            </ul>
+
+            <b>Version 0.1.7</b> - <i>June 14, 2017</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for subassets</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for pending transactions</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added ability to copy address from transaction history</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Manually adjustable miners fee</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Setup failovers for API calls on balance/address/history/broadcast</li>
+                <li><span class="btn btn-xs btn-info">UPDATE</span> - Start using XChain.io API instead of counterpartychain.io API</li>
+                <li><span class="btn btn-xs btn-info">UPDATE</span> - Start broadcasting transactions via XChain.io send_tx API</li>
+            </ul>
+
+            <b>Version 0.1.5</b> - <i>December 15, 2016</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issue with url handling </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issue with spinner fields being read-only on android</li>
+            </ul>
+
+            <b>Version 0.1.4</b> - <i>November 26, 2016</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Cache currency price/conversion info locally</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added QR Code Authorization support</li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Improved QR Code scanning support</li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Misc issues with amount/price fields</li>
+            </ul>
+
+            <b>Version 0.1.3</b> - <i>November 5, 2016</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Inital App Store release (iOS)</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Inital Play Store release (Android)</li>
+                <li><span class="btn btn-xs btn-danger">REMOVED</span> - iOS Updates to hide all but BTC balances for new wallets</li>
+            </ul>
+
+            <b>Version 0.1.2</b> - <i>October 25, 2016</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-danger">REMOVED</span> - iOS updates to prevent sending XCP</li>
+            </ul>
+
+            <b>Version 0.1.1</b> - <i>September 19, 2016</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added USD Support to Balances, Send, and Receive screens </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added Content-Security-Policy </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issue with Sencha Touch app cache not updating properly </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issue with scrollbars on IOS </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issue with camera scanning on IOS 10 </li>
+            </ul>
+
+
+            <b>Version 0.1.1</b> - <i>September 1, 2016</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Initial release for iOS and Android </li>
+            </ul>
+        </div>
+        <div class="col-sm-6">
+            <h3>FreeWallet Desktop</h3>
+
+            <b>Version 0.9.11</b> - <i>March 1, 2020</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added BIP39 passphrase support</li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Fixed send amount formatting issue</li>
+            </ul>
+
+            <b>Version 0.9.10</b> - <i>February 25, 2020</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Changed licensing to MIT</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for segwit addresses</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for burns</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for sweeps</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for dispensers</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for destroys</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for multi-peer-multi-assets sends (MPMA)</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added donation annoyware</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Opened Exchange interface to everyone</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added Dispensers watchlist interface</li>
+            </ul>
+
+            <b>Version 0.9.9</b> - <i>February 20, 2019</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Removed defunct blocktrail.com API calls (<a href="https://github.com/jdogresorg/freewallet/issues/38" target="_blank">more info</a>)</li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Setup all API calls with multiple failovers</li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Updated bounty amounts to adjust for XCP value drop in last year</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added ability to buy XCHAINPEPE and FULLACCESS tokens from DEX</li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added “API Keys” section to settings</li>
+            </ul>
+
+            <b>Version 0.9.8</b> - <i>March 29, 2018</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added basic framework for hardware wallet support (import & sign) </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added basic Trezor hardware wallet integration</li>
+            </ul>
+
+            <b>Version 0.9.7</b> - <i>March 15, 2018</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issue with create_btcpay API calls failing (<a href="https://github.com/CounterpartyXCP/counterparty-lib/issues/1027" target="_blank">more info</a>) </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - issue with markets sidebar displaying wrong volume and % (<a href="https://github.com/jdogresorg/freewallet/issues/21" target="_blank">more info</a>) </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issues with URIs not working on windows/linux  (<a href="https://github.com/jdogresorg/freewallet/issues/15" target="_blank">more info</a>) </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for addresses with 1,000+ assets/tokens (<a href="https://github.com/jdogresorg/freewallet/issues/17" target="_blank">more info</a>) </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Ability to check for version update manually </li>
+            </ul>
+            
+            <b>Version 0.9.6</b> - <i>Feburary 10, 2018</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for Highcharts </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for Decentralized Exchange (DEX) </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added market view (chart, orders, history, etc) </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added 20+ technical indicators to market view </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added suport Auto-BTCpay and manual BTCpay notifications </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for /api/history/address endpoint </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added support for displaying asset lock status via lock/unlock icons </li>
+                <li><span class="btn btn-xs btn-success">NEW</span> - Added version update notification system </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issue where asset description was reset when issuing additional supply </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Issue where issuing additional supply was resetting description </li>
+                <li><span class="btn btn-xs btn-warning">FIXED</span> - Display issue with pending transactions in history list </li>
+            </ul>
+
+            <b>Version 0.9.5</b> - <i>October 13, 2017</i>
+            <ul class="update-list">
+                <li><span class="btn btn-xs btn-success">NEW</span> - Initial release for Windows, Mac, and Linux</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Javascript code for blueimp gallery plugin -->
+<script>
+document.getElementById('screenshots-mobile').onclick = function (event) {
+    event = event || window.event;
+    var target  = event.target || event.srcElement,
+        link    = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links   = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+document.getElementById('screenshots-desktop').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer navbar-default">
+        <div class="container">
+            <div class="row" style="margin-top:4px;">
+                <div class="col-sm-4 hidden-xs">
+                    <ul class="nav navbar-nav ">
+                        <li><a href="https://twitter.com/freewallet"           title="Twitter"  data-toggle="tooltip" target="_blank"><i class="fa fa-lg fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/freewallet.io/"  title="Facebook" data-toggle="tooltip" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
+                        <li><a href="https://github.com/jdogresorg/freewallet" title="Github"   data-toggle="tooltip" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+                        <li><a href="mailto:info@freewallet.io"                title="Email"    data-toggle="tooltip" target="_blank"><i class="fa fa-lg fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 text-center">
+                    <!-- <a href="/terms">Terms of Use</a> -->
+                </div>
+                <div class="col-sm-4 hidden-xs">
+                    <a href="bitcoin:1FWDonkMbC6hL64JiysuggHnUAw2CKWszs" class="btn btn-xs btn-success pull-right" title="Donate to support FreeWallet development" data-toggle="tooltip"><i class="fa fa-bitcoin"></i> Donate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load additional javascript assets -->
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="/js/blueimp-gallery.min.js"></script>
+    <script type="text/javascript" src="/js/custom.js"></script>    
+
+
+    <!-- Google analytics tracking code-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80716290-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-80716290-1');
+    </script>
+
+
+</body>
+</html>
